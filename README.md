@@ -16,7 +16,7 @@ A responsive weather application built with React and Tailwind CSS, leveraging t
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/vyshakkolloth/weatherM
+   git clone https://github.com/vyshakkolloth/weather_app-Ma
    cd your-repository
 
 ## Getting Started
