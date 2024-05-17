@@ -4,7 +4,7 @@ A responsive weather application built with React and Tailwind CSS, leveraging t
 
 ## Features
 
-- **Search for current weather by city name.:** 
+- **Search for current weather by city name.** 
 - **Displays temperature, weather conditions, humidity, and wind speed.**
 - **Responsive design for mobile and desktop views.** 
 ### Prerequisites

@@ -12,12 +12,11 @@ let clicks=()=>{
     .then((res)=>{
         data({code:200 ,data:res.data})
     })
-    .catch((err)=>{console.log(err.message)
+    .catch((err)=>{
+      console.log(err.message)
   data({code:404})}
 )
-    .finally(function () {
-      // always executed
-    });
+  
 }
 
   return (
