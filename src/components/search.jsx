@@ -11,11 +11,12 @@ let clicks=()=>{
     axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${import.meta.env.VITE_REACT_APP_API_KEY}`)
     .then((res)=>{
         data({code:200 ,data:res.data})
+        // console.log(res.data)
     })
     .catch((err)=>{
       console.log(err.message)
   data({code:404})}
-)
+  )
   
 }
 

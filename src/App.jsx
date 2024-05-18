@@ -23,7 +23,7 @@ function App() {
     
           break;
         case "Clouds":
-          setimagee("./clear")
+          setimagee("./cloud.png")
     
           break;
         case "Mist":
@@ -51,7 +51,9 @@ function App() {
           <div className="flex flex-col justify-center text-center ">
             
              
-                <img src={imagee} alt="Weather Icon" className=" transition-all duration-100 ease-in w-3/5 mx-auto" />
+                <img src={imagee} alt="Weather Icon" className=" transition-all duration-100 ease-in
+                
+                w-3/5 mx-auto" />
                 <p className="transition-all duration-100 ease-i temperature relative text-6xl font-bold leading-none mt-5 mb-2.5 ml-0">
                  {weatherdata?.data?.main.temp}<span className="absolute text-xl ml-1">C</span>
                 </p>
