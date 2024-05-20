@@ -41,7 +41,7 @@ function App() {
   
   return (
     <>
-      <div className=" flex justify-center h-screen align-middle items-center bg-[url('./dark-1836972.jpg')] bg-cover bg-center overflow-hidden">
+      <div className=" flex justify-center h-screen align-middle items-center bg-[url('./bg.jpg')] bg-cover bg-center overflow-hidden">
         <div className="relative bg-white/30 w-[400px] group backdrop-blur-sm min-h-[100px]  p-5  border border-opacity-20 border-white rounded-lg text-white transition-all duration-600 ease-in-out">
           <Search data={setweatherdata} />
 

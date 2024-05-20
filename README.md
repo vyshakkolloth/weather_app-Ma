@@ -35,3 +35,4 @@ A responsive weather application built with React and Tailwind CSS, leveraging t
 
 
 
+![alt text](https://github.com/vyshakkolloth/weather_app-Ma/weather.png?raw=true)
