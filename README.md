@@ -23,7 +23,11 @@ A responsive weather application built with React and Tailwind CSS, leveraging t
 >Install dependencies:
 `npm install`
 
+>Create env file:
+`touch .env`
 
+env example 
+- VITE_REACT_APP_API_KEY="dsfsfsdf"
 
 > Start the development server:
 `npm run dev`
@@ -35,4 +39,4 @@ A responsive weather application built with React and Tailwind CSS, leveraging t
 
 
 
-![alt text](https://github.com/vyshakkolloth/weather_app-Ma/weather.png?raw=true)
+![alt text](https://github.com/vyshakkolloth/weather_app-Ma/blob/main/weather.png?raw=true)
